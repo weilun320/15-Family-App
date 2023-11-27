@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Family App</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Family Member Information</h1>
+  <img alt="" height="250px" src="assets/family.png">
+  <label for="name">Name:</label>
+  <input id="name" type="text">
+  <label for="age">Age:</label>
+  <input id="age" type="number">
+  <label for="gender">Gender:</label>
+  <input id="gender" type="text">
+  <button id="submit" onclick="submitFamilyMember()">Submit</button>
+
+  <table id="family-members">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <script src="script.js"></script>
+</body>
+
+</html>

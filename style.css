@@ -1,0 +1,40 @@
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+label {
+  font-size: 16px;
+}
+
+input {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 30px;
+  text-align: left;
+}
+
+table, table th, table td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+#submit {
+  background-color: #97d1cb;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 15px;
+  width: 270px;
+}
